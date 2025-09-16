@@ -1,16 +1,14 @@
 # comunicacion_flutter
 
-Flutter MVVM MethodChannel App
+Ejemplo de comunicación entre Flutter y Android nativo usando MethodChannel.
+Está estructurada con el patrón de diseño MVVM
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+En su pantalla principal hay dos botones:
 
-A few resources to get you started if this is your first Flutter project:
+Mostrar Toast → al pulsarlo, Flutter invoca un método nativo Android que muestra un Toast (mensaje breve) en el dispositivo.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mostrar AlertDialog → al pulsarlo, Flutter invoca otro método nativo A<img width="369" height="697" alt="capt2" src="https://github.com/user-attachments/assets/96b38f58-e0d2-47dc-a98f-dc54f5a5a6b1" />
+<img width="369" height="699" alt="capt1" src="https://github.com/user-attachments/assets/c6f8225f-a041-4b81-913d-0abd0df8f48a" />
+ndroid que muestra un AlertDialog con título, mensaje y un botón “Aceptar” para cerrarlo.
